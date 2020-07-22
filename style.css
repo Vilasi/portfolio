@@ -3,7 +3,7 @@ header {
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url(./img/piano-min.jpg);
+    ), url(./img/piano-tiny.jpg);
     background-size: cover;
     background-position: center;
     min-height: 1000px;
