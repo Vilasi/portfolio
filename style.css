@@ -64,7 +64,7 @@ h4 {
         -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
             -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+            animation: fadein 4s;
 }
 #third-fade {
     -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
