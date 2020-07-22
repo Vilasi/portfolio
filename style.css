@@ -3,6 +3,8 @@ header {
     background-size: cover;
     background-position: center;
     min-height: 1000px;
+   
+    
 }
 
 /*
@@ -15,10 +17,15 @@ h1 {
 
 */
 
-#intro {
+/* #intro {
     position: relative;
     bottom: 250px;
     
+} */
+
+nav ul li > a {
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 h1, h4, h3 {
@@ -36,5 +43,5 @@ h4 {
 */
 
 .amber.accent-4 {
-    background-color: rgba(255, 171, 0, 0.75) !important; 
+    background-color: rgba(255, 171, 0, 0.70) !important; 
 }
