@@ -11,28 +11,10 @@ header {
     
 }
 
-/*
-h1 {
-    position: relative;
-    bottom: 300px;
-    padding: 10px;
-    
-}
-
-*/
-
-/* #intro {
-    position: relative;
-    bottom: 250px;
-    
-} */
-
 nav ul li > a {
     padding-right: 25px;
     padding-left: 25px;
 }
-
-
 
 h1, h4, h3, h5 {
     padding: 5px;
@@ -42,16 +24,22 @@ h1, h4, h3, h5 {
     padding: 2px;
 }
 
-/*
-h4 {
-    padding: 5px;
+div.divider {
+    margin-bottom: 4vw;
+    margin-top: 4vw;
 }
-*/
-
-.amber.accent-4 {
-    background-color: rgba(255, 171, 0, 0.70) !important; 
+section.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
 
+
+img {
+    border: 1px solid black;
+}
+
+
+/*** FADE IN ANIMATION FOR HEADER TEXT ***/
 #second-fade {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 5s; /* Firefox < 16 */
