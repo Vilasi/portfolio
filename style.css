@@ -40,9 +40,24 @@ img {
     border: 1px solid black;
 }
 
-.collection .collection-item {
+.collection .collection-item.avatar i.circle {
+    font-size: 32px;
+}
+
+ul.collection.skills {
+    border: none;
+}
+
+ul.collection.skills > li {
+    margin-bottom: 4rem;
+}
+
+li.collection-item.skills-item.avatar {
+    border: none;
+    border-bottom: none !important;
     
 }
+
 
 
 /*** FADE IN ANIMATION FOR HEADER TEXT ***/
