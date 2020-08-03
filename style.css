@@ -2,6 +2,10 @@ html, body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background:
     linear-gradient(
@@ -22,11 +26,23 @@ nav ul li > a {
     padding-left: 25px;
 }
 
-div#progress--button {
-    
-
-
+#button--to--projects {
+    scroll-behavior: smooth;
+   
 }
+
+div#progress--button {
+    position: relative;
+    bottom: -20rem;
+}
+
+@media only screen and (min-width: 992px) {
+    div#progress--button {
+        position: relative;
+        bottom: -30rem;
+    }
+}
+
 
 h1, h4, h3, h5 {
     padding: 5px;
