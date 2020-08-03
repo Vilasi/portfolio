@@ -27,7 +27,7 @@ nav ul li > a {
 }
 
 #button--to--projects {
-    scroll-behavior: smooth;
+    opacity: 85%;
    
 }
 
