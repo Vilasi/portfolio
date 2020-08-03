@@ -18,6 +18,13 @@ nav ul li > a {
     padding-left: 25px;
 }
 
+div#progress--button {
+    position: relative;
+    top: 30rem;
+
+
+}
+
 h1, h4, h3, h5 {
     padding: 5px;
 }
@@ -58,6 +65,32 @@ li.collection-item.skills-item.avatar {
     
 }
 
+/*
+#about--me::first-line {
+    font-weight: bold;
+}
+*/
+
+#headshot--img {
+    width: auto;
+    height: 100%;
+    margin-left: -100px;
+    border: none;
+}
+
+div.circular--landscape {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+p.flow-text.center {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 /*** FADE IN ANIMATION FOR HEADER TEXT ***/
@@ -147,3 +180,4 @@ li.collection-item.skills-item.avatar {
   }
 
   */
+
