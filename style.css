@@ -84,6 +84,11 @@ li.collection-item.skills-item.avatar {
     
 }
 
+ul.collection {
+    border: none;
+    
+}
+
 /*
 #about--me::first-line {
     font-weight: bold;
@@ -111,7 +116,91 @@ p.flow-text.center {
     margin-bottom: 2rem;
 }
 
+#contact {
+    margin-top: 4vw;
+    padding-bottom: 4vw;
+}
 
+#contact--links {
+    position: relative;
+    bottom: 3.75rem;
+    left: 3rem;
+}
+
+li.collection-item.blue-grey.avatar.hide-on-med-and-down {
+    border-bottom: none;
+    max-height: 40px;
+    
+}
+
+li.collection-item.blue-grey.avatar.hide-on-med-and-down:hover {
+    position: relative;
+    top: 3px;
+    
+}
+li.collection-item.blue-grey.avatar.hide-on-med-and-down:active {
+    position: relative;
+    top: 1px;
+    
+}
+
+li.collection-item.blue-grey.avatar.hide-on-med-and-down > a {
+    outline: none;
+}
+li.collection-item.blue-grey.avatar.hide-on-large-only > a {
+    outline: none;
+}
+
+li.collection-item.blue-grey.avatar.hide-on-large-only {
+    border-bottom: none;
+    max-height: 40px;
+    /* margin-left: 3.0vw; */
+    
+}
+
+li.collection-item.blue-grey.avatar.hide-on-large-only:hover {
+    position: relative;
+    top: 3px;
+    
+}
+li.collection-item.blue-grey.avatar.hide-on-large-only:active {
+    position: relative;
+    top: 1px;
+    
+}
+
+li.collection-item.blue-grey.avatar.hide-on-med-and-down > a {
+    outline: none;
+}
+
+
+/***   This changes the materialize CSS form color to white ***/
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .helper-text, .input-field .prefix ~ .autocomplete-content {
+    color: white;
+}
+
+i.material-icons.prefix {
+    color: #eceff1  !important;
+}
+
+/*** This changes the materialize CSS form color to black while active ***/
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #263238;
+    box-shadow: 0 1px 0 0 #263238;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+    color: #263238;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #263238;
+    box-shadow: 0 1px 0 0 #263238;
+}
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #263238;
+}
 /*** FADE IN ANIMATION FOR HEADER TEXT ***/
 #second-fade {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
