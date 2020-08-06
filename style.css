@@ -31,6 +31,10 @@ nav ul li > a {
    
 }
 
+#first-fade, #second-fade {
+    
+}
+
 
 div#progress--button {
     position: relative;
@@ -245,12 +249,14 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     color: #263238;
 }
 /*** FADE IN ANIMATION FOR HEADER TEXT ***/
+
+
 #second-fade {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
             -o-animation: fadein 5s; /* Opera < 12.1 */
-            animation: fadein 5s;
+            animation: fadein 5s; 
 }
 #first-fade {
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -295,6 +301,5 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 
 
