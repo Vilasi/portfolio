@@ -15,7 +15,7 @@ $(document).ready(function(){
     
 });
 
-
+/*
 let firstIntroMessage = document.getElementById("first-fade");
 firstIntroMessage.style.visibility = "hidden";
 
@@ -28,15 +28,19 @@ thirdIntroMessage.style.visibility = "hidden";
 let fourthIntroMessage = document.getElementById("fourth-fade")
 fourthIntroMessage.style.visibility = "hidden";
 
+let header = document.getElementById("header");
+
 
 window.onload = (event) => {
     firstIntroMessage.style.visibility = "visible";
     secondIntroMessage.style.visibility = "visible";
     thirdIntroMessage.style.visibility = "visible";
     fourthIntroMessage.style.visibility = "visible";
+};
 
-    
-}
+*/
+
+
 
 
 /*
