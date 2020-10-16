@@ -43,8 +43,3 @@ window.onload = (event) => {
 
 
 
-/*
-let secondIntroMessage = $('#second-fade');
-firstIntroMessage.style.visibility = "hidden";
-secondIntroMessage.style.visibility = "hidden";
-*/
