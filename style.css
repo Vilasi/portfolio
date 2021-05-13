@@ -97,6 +97,12 @@ img {
   border: 1px solid black;
 }
 
+#headshot--img {
+  margin: 0 !important;
+  border-radius: 50%;
+  max-height: 40rem;
+}
+
 a.code--links:active {
   position: relative;
   top: 1px;
