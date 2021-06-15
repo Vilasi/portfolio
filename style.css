@@ -127,6 +127,7 @@ ul.collection {
 #headshot-div {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 #headshot--img {
